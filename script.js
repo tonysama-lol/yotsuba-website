@@ -1,3 +1,10 @@
+var win = window,
+    doc = document,
+    docElem = doc.documentElement,
+    body = doc.getElementsByTagName('body')[0],
+    x = win.innerWidth || docElem.clientWidth || body.clientWidth,
+    y = win.innerHeight|| docElem.clientHeight|| body.clientHeight;
+
 function what_we_do() {
     const xhttp = new XMLHttpRequest();
     xhttp.onload = function() {
@@ -26,7 +33,7 @@ function meet_our_team() {
 }
 
 function how_to_read_Yotsuba() {
-  window.scrollTo({ top: 450, behavior: 'smooth' })
+  window.scrollTo({ top: 350, behavior: 'smooth' })
   const xhttp = new XMLHttpRequest();
   xhttp.onload = function() {
     document.getElementById("ajax").innerHTML = this.responseText;
@@ -36,7 +43,7 @@ function how_to_read_Yotsuba() {
 }
 
 function how_to_read_Yotsuba1() {
-  window.scrollTo({ top: 450, behavior: 'smooth' })
+  window.scrollTo({ top: 350, behavior: 'smooth' })
   const xhttp = new XMLHttpRequest();
   xhttp.onload = function() {
     document.getElementById("ajax").innerHTML = this.responseText;
@@ -46,7 +53,7 @@ function how_to_read_Yotsuba1() {
 }
 
 function how_to_read_Yotsuba2() {
-  window.scrollTo({ top: 450, behavior: 'smooth' })
+  window.scrollTo({ top: 350, behavior: 'smooth' })
   const xhttp = new XMLHttpRequest();
   xhttp.onload = function() {
     document.getElementById("ajax").innerHTML = this.responseText;
@@ -56,7 +63,7 @@ function how_to_read_Yotsuba2() {
 }
 
 function how_to_read_Yotsuba3() {
-  window.scrollTo({ top: 450, behavior: 'smooth' })
+  window.scrollTo({ top: 350, behavior: 'smooth' })
   const xhttp = new XMLHttpRequest();
   xhttp.onload = function() {
     document.getElementById("ajax").innerHTML = this.responseText;
@@ -66,7 +73,7 @@ function how_to_read_Yotsuba3() {
 }
 
 function how_to_read_Yotsuba4() {
-  window.scrollTo({ top: 450, behavior: 'smooth' })
+  window.scrollTo({ top: 350, behavior: 'smooth' })
   const xhttp = new XMLHttpRequest();
   xhttp.onload = function() {
     document.getElementById("ajax").innerHTML = this.responseText;
@@ -76,7 +83,7 @@ function how_to_read_Yotsuba4() {
 }
 
 function how_to_read_Yotsuba5() {
-  window.scrollTo({ top: 450, behavior: 'smooth' })
+  window.scrollTo({ top: 350, behavior: 'smooth' })
   const xhttp = new XMLHttpRequest();
   xhttp.onload = function() {
     document.getElementById("ajax").innerHTML = this.responseText;
@@ -86,7 +93,7 @@ function how_to_read_Yotsuba5() {
 }
 
 function how_to_read_Yotsuba6() {
-  window.scrollTo({ top: 450, behavior: 'smooth' })
+  window.scrollTo({ top: 350, behavior: 'smooth' })
   const xhttp = new XMLHttpRequest();
   xhttp.onload = function() {
     document.getElementById("ajax").innerHTML = this.responseText;
@@ -96,13 +103,17 @@ function how_to_read_Yotsuba6() {
 }
 
 function how_to_read_Yotsuba7() {
-  window.scrollTo({ top: 450, behavior: 'smooth' })
+  window.scrollTo({ top: 350, behavior: 'smooth' })
   const xhttp = new XMLHttpRequest();
   xhttp.onload = function() {
     document.getElementById("ajax").innerHTML = this.responseText;
   }
   xhttp.open("GET", "how-to-read-Yotsuba7.html");
   xhttp.send();
+}
+
+function go_to_top(){
+  window.scrollTo({top:0, behavior: 'smooth'})
 }
 
 function open_facebook(){

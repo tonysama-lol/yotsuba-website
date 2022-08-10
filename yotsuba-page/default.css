@@ -1,0 +1,16 @@
+:root{
+    --background-green: #C7E6AE;
+}
+body{
+    background-color: var(--background-green);
+}
+h1{
+    font-family: 'Alegreya', serif;
+    font-weight: 900;
+    font-size: 4vw;
+}
+p{
+    font-family: 'Yomogi';
+    font-size: 2vw;
+    font-weight: 900;
+}

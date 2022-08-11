@@ -155,4 +155,7 @@
     .body-element{
         height: 1vh;
     }
+    .big-element{
+        width: 95vw;
+    }
 }

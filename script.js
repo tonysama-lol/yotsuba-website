@@ -5,6 +5,10 @@ var win = window,
     x = win.innerWidth || docElem.clientWidth || body.clientWidth,
     y = win.innerHeight|| docElem.clientHeight|| body.clientHeight;
 
+const audio = new Audio('theaudio.webm');
+var playing = 0;
+audio.volume = 0.4;
+
 function what_we_do() {
     const xhttp = new XMLHttpRequest();
     xhttp.onload = function() {
@@ -128,6 +132,20 @@ function open_email(){
 function open_twitter(){
   window.open("https://twitter.com/Yotsubatodaily");
 }
+
 function open_insta(){
   window.open("https://www.instagram.com/yotsubatodaily/");
 }
+
+function play_audio(){
+  if(!playing){
+    audio.play();
+    playing = 1;
+  }
+  else {
+    audio.pause();
+    audio.currentTime = 0;
+    playing = 0;
+  }
+}
+

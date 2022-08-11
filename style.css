@@ -102,6 +102,10 @@
     width:35vw;
     justify-self: center;
 }
+.back-next-container{
+    display: flex;
+    justify-content: space-between;
+}
 /*responsive*/
 @media only screen and (max-width: 1250px) {
     .img-header, .img-header1{

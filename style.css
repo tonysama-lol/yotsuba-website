@@ -154,6 +154,7 @@
 @media only screen and (max-width: 425) {
     .body-element{
         height: 1vh;
+        width: 50vw;
     }
     .big-element{
         width: 95vw;

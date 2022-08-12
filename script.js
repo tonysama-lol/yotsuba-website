@@ -127,7 +127,7 @@ function open_discord(){
   window.open("https://discord.gg/M2Py59CwyK");
 }
 function open_email(){
-  window.open("email.html");
+  window.open("mailto:yotsubatodaily@gmail.com");
 }
 function open_twitter(){
   window.open("https://twitter.com/Yotsubatodaily");

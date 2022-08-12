@@ -129,6 +129,16 @@
 .warning-element{
     font-size:1.3vw;
 }
+.header-container{
+    display: flex;
+    justify-content: center;
+}
+.header{
+    width:35vw;
+}
+.header:hover{
+    cursor: pointer;
+}
 /*responsive*/
 @media only screen and (max-width: 1250px) {
     .img-header, .img-header1, .img-sax, .warning{
@@ -147,6 +157,9 @@
         height: 10vh;
         width: 45vw;
         border-width:0.3vw;
+    }
+    .header{
+        width:45vw;
     }
     .big-element{
         width: 85vw;
@@ -183,5 +196,8 @@
     }
     .back-next{
         width: 30vw;
+    }
+    .header{
+        width:55vw;
     }
 }

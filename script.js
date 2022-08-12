@@ -149,3 +149,6 @@ function play_audio(){
   }
 }
 
+function reload_page(){
+  window.locate.reload();
+}

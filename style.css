@@ -120,6 +120,7 @@
 .img-sax:hover{
     background-color: var(--dark-green);
     opacity: 0.9;
+    cursor: pointer;
 }
 .warning{
     position: fixed;

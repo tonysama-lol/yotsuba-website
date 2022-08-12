@@ -150,5 +150,5 @@ function play_audio(){
 }
 
 function reload_page(){
-  window.locate.reload();
+  window.open("http://yotsuba-everyday.gq/","_self");
 }

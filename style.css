@@ -140,7 +140,7 @@
     cursor: pointer;
 }
 .body-element-text{
-    padding-top:1vh;
+    padding-top:0.8vh;
 }
 /*responsive*/
 @media only screen and (max-width: 1250px) {

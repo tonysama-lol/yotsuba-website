@@ -139,6 +139,9 @@
 .header:hover{
     cursor: pointer;
 }
+.body-element-text{
+    padding-top:1vh;
+}
 /*responsive*/
 @media only screen and (max-width: 1250px) {
     .img-header, .img-header1, .img-sax, .warning{
@@ -157,6 +160,9 @@
         height: 10vh;
         width: 45vw;
         border-width:0.3vw;
+    }
+    .body-element-text{
+        padding-top:1vh;
     }
     .header{
         width:45vw;
@@ -186,7 +192,10 @@
     }
     .body-element{
         width:55vw;
-        height: 4vh;
+        height: 5vh;
+    }
+    .body-element-text{
+        padding-top:1.8vh;
     }
     .big-element{
         width: 95vw;

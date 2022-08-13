@@ -107,7 +107,7 @@
     justify-content: space-between;
 }
 .img-sax{
-    position: fixed;
+    position: absolute;
     top: 2vh;
     left:2vh;
     border-style: solid;
@@ -123,7 +123,7 @@
     cursor: pointer;
 }
 .warning{
-    position: fixed;
+    position: absolute;
     top: 18.5vw;
     left: 1vw;
 }

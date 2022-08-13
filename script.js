@@ -153,3 +153,10 @@ function reload_page(){
   window.open("http://yotsuba-everyday.gq/","_self");
   window.scrollTo({ top: 0, behavior: 'smooth' })
 }
+
+function download_file() {
+  var a = document.createElement("a");
+  a.href = "https://yotsuba-everyday.gq/img/yotsuba-everyday-qr-code.png";
+  a.setAttribute("download", "yotsuba-everyday-qr-code.png");
+  a.click();
+}

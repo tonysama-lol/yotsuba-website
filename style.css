@@ -143,9 +143,19 @@
 .body-element-text{
     padding-top:0.8vh;
 }
+.qr-code{
+    position: absolute;
+    top: 1vw;
+    right: 1vw;
+    width: 12.5vw;
+}
+.qr-code:hover{
+    opacity:0.6;
+    cursor: pointer;
+}
 /*responsive*/
 @media only screen and (max-width: 1250px) {
-    .img-header, .img-header1, .img-sax, .warning{
+    .img-header, .img-header1, .img-sax, .warning, .qr-code{
         display: none;
     }
     p, li{

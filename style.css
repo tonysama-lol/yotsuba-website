@@ -144,6 +144,7 @@
     padding-top:0.8vh;
 }
 .qr-code{
+    display:none;
     position: absolute;
     top: 1vw;
     right: 1vw;

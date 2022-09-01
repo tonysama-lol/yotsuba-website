@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: yotsuba-everyday.gq
+Token: f31ec920e880853cb2332337dce3a7fd0f80304bbbedd43b4e8aa99ced3b0b55

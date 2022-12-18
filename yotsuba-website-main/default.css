@@ -1,0 +1,61 @@
+:root{
+    --background-green: #C7E6AE;
+    --dark-green: #a6c48c;
+    --dark-green2: #8aa077;
+    --light-green: #d1f1b6;
+}
+body{
+    background-color: var(--background-green);
+}
+h1{
+    font-family: 'Alegreya', serif;
+    font-weight: 900;
+    font-size: 4vw;
+}
+h2{
+    font-family: 'Yomogi';
+    font-size: 3vw;
+    font-weight: 900;
+    color:rgb(230, 69, 69);
+}
+p,li{
+    font-family: 'Yomogi';
+    font-size: 2vw;
+    font-weight: 900;
+}
+li{
+    margin-bottom:1.5vh;
+}
+b{
+    font-weight: 900;
+    color:rgb(232, 102, 102);
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/* Track */
+::-webkit-scrollbar-track {
+    background: var(--green);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: var(--dark-green);
+    border-radius: 15px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: var(--dark-green2);
+    border-radius: 15px;
+}
+@media only screen and (max-width: 769px) {
+    p{
+        font-size: 1.4vw;
+    }
+}

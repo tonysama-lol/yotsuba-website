@@ -135,7 +135,7 @@
     justify-content: center;
 }
 .header{
-    width:35vw;
+    width:45vw;
 }
 .header:hover{
     cursor: pointer;
@@ -153,6 +153,11 @@
 .qr-code:hover{
     opacity:0.6;
     cursor: pointer;
+}
+.christmas{
+    width:55vw; 
+    margin-top:5vh; 
+    margin-left:-7.5vw;
 }
 /*responsive*/
 @media only screen and (max-width: 1250px) {
@@ -196,6 +201,10 @@
     .img-body{
         width: 70vw;
     }
+    .christmas{
+        width:85vw;
+        margin-left: -1.5vw;
+    }
 }
 @media only screen and (max-width: 530px) {
     .small-text{
@@ -220,5 +229,9 @@
     }
     .header{
         width:55vw;
+    }
+    .christmas{
+        width:95vw;
+        margin-left: -7.5vw;
     }
 }

@@ -150,7 +150,7 @@ function play_audio(){
 }
 
 function reload_page(){
-  window.open("http://yotsuba-everyday.gq/","_self");
+  window.open("http://yotsuba.site/","_self");
   window.scrollTo({ top: 0, behavior: 'smooth' })
 }
 
